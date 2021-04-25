@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Djhérondhy Felipe\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Users\Djhérondhy Felipe\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Djhérondhy Felipe\AppData\Local\Programs\Python\Python38-32\;C:\Users\Djhérondhy Felipe\AppData\Local\Microsoft\WindowsApps;C:\Users\Djhérondhy Felipe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Djhérondhy Felipe\AppData\Roaming\npm;C:\Users\Djhérondhy Felipe\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+     "name": "hospital-api",
+     "version": "0.0.1",
+     "description": "Awesome project developed with TypeORM.",
+     "devDependencies": {
+        "ts-node": "3.3.0",
+        "@types/node": "^8.0.29",
+        "typescript": "3.3.3333"
+     },
+     "dependencies": {
+        "typeorm": "0.2.32",
+        "reflect-metadata": "^0.1.10",
+        "pg": "^8.4.0",
+        "express": "^4.15.4",
+        "body-parser": "^1.18.1"
+     },
+     "scripts": {
+        "start": "ts-node src/index.ts"
+     }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
